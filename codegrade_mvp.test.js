@@ -24,7 +24,7 @@ describe('index.html', () => {
     });
 
     it('renders with an external stylesheet', () => {
-        const cssLinkTag = dom.window.document.head.querySelector('link[rel="stylesheet"]');
+        const cssLinkTag = dom.window.document.head.querySelector('link[href="index.css"]');
         expect(cssLinkTag).toBeInTheDocument();
     });
 
