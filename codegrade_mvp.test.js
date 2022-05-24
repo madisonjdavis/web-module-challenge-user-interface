@@ -60,10 +60,10 @@ describe('index.html', () => {
         expect(h2Arr.length).toBe(5);
 
         expect(getByText(h2Arr[0], /About Sweet Eats Bakery/i)).toBeInTheDocument();
-        expect(getByText(h2Arr[1], /Cookies/i)).toBeInTheDocument();
-        expect(getByText(h2Arr[2], /Weddings/i)).toBeInTheDocument();
-        expect(getByText(h2Arr[3], /Catering/i)).toBeInTheDocument();
-        expect(getByText(h2Arr[4], /Contact/i)).toBeInTheDocument();
+        expect(getByText(h2Arr[1], /Cupcakes/i)).toBeInTheDocument();
+        expect(getByText(h2Arr[2], /Cookies/i)).toBeInTheDocument();
+        expect(getByText(h2Arr[3], /Celebrations/i)).toBeInTheDocument();
+        expect(getByText(h2Arr[4], /Contact Us/i)).toBeInTheDocument();
     });
 
     it('renders the correct four images in body', () => {
