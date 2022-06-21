@@ -1,6 +1,9 @@
 /*======= Create a new universal selector that changes the font color to: #3C373B */
 
 
+/*======= Create a new universal selector that changes the font color to: #3C373B */
+
+
 h1 {
   font-family: 'Gaegu', cursive;
   margin: 20px 0;
@@ -39,10 +42,12 @@ line-height: 1.4;
 .content-row div {
   /*======= create a margin propery.  Set the value to 20px */
 }
-
 .container {
   /*======= create a width property. Set the value to 605px */
   margin: 0 auto;
+  width: 100vw;
+  height: 60vh;
+  background-color: #F87B99;
 }
 
 .container header nav a {
